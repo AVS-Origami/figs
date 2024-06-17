@@ -1,5 +1,10 @@
+use std::collections::HashMap;
+
+use crate::entity::Entity;
+
 pub type Pnt = (f32, f32);
 pub type FigResult<T> = Result<T, Box<dyn std::error::Error>>;
+pub type EntityMap = HashMap<String, Entity>;
 
 pub fn pnt_to_buf(pnt: Pnt, width: usize) -> usize {
     let x = pnt.0.round() as usize;
