@@ -1,9 +1,15 @@
 [package]
 name = "figs"
-version = "0.1.0"
+version = "0.0.1"
+authors = ["AVS Origami <avs.origami@gmail.com>"]
 edition = "2021"
 license = "MIT"
-description = "Temporary MiniFB project"
+description = "Simple 2D game framework using MiniFB"
+repository = "https://github.com/AVS-Origami/figs/"
+documentation = "https://docs.rs/figs"
+readme = "readme.md"
+keywords = ["game", "graphics", "2D", "engine", "framework", "figs"]
+categories = ["games", "game-engines", "game-development"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
